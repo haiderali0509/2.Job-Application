@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="Job Application.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="ApplyBox">
+        <h1>Job Application <span>(Web)</span></h1>
+        <form action="">
+          <div class="form-container">
+            <div class="form-control">
+              <label for="First-Name">First Name</label>
+              <input
+                id="First-Name"
+                type="text"
+                name="First-Name"
+                placeholder="Enter First Name"
+              />
+            </div>
+            <div class="form-control">
+              <label for="Last-Name">Last Name</label>
+              <input
+                id="Last-Name"
+                type="text"
+                name="Last-Name"
+                placeholder="Enter Last Name"
+              />
+            </div>
+            <div class="form-control">
+              <label for="Email">Email</label>
+              <input
+                id="Email"
+                type="email"
+                name="Email"
+                placeholder="Enter Email"
+              />
+            </div>
+            <div class="form-control">
+              <label for="Job Role">Job Role</label>
+              <select name="Job Role" id="Job Role">
+                <option value="">Select Job Role</option>
+                <option value="UI Designer">UI Designer</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Full Stack Developer">
+                  Full Stack Developer
+                </option>
+              </select>
+            </div>
+            <div class="textarea-control">
+              <label for="Addresss">Addresss</label>
+              <textarea
+                name="Address"
+                id="Address"
+                placeholder="Enter Address"
+                cols="30"
+                rows="4"
+              ></textarea>
+            </div>
+            <div class="form-control">
+              <label for="City">City</label>
+              <input
+                type="text"
+                name="City"
+                id="City"
+                placeholder="Enter City Name"
+              />
+            </div>
+            <div class="form-control">
+              <label for="Postal Code">Postal Code</label>
+              <input
+                type="number"
+                name="Postal Code"
+                id="Postal Code"
+                placeholder="Enter Postal Code"
+              />
+            </div>
+            <div class="form-control">
+              <label for="Date">Date</label>
+              <input type="date" name="Date" id="Date" />
+            </div>
+            <div class="form-control">
+              <label for="Upload">Upload Your CV</label>
+              <input type="file" name="Upload" id="Upload" />
+            </div>
+          </div>
+          <div class="button-container">
+            <button type="submit">Apply Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
